@@ -122,3 +122,7 @@ body{
     flex-direction: column;
 }
 
+.oferta{
+    text-align: center;
+    color:white
+}
