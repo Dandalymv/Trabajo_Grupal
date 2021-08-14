@@ -22,7 +22,8 @@
 h1{
     font-family: sans-serif;
     font-size: 24px;
-    color: aliceblue;
+    font-style: italic;
+    color: blueviolet;
     text-align: center;
 }
 
@@ -88,7 +89,7 @@ a.link:visited{
 
 }
 aside{
-    background-color: deepskyblue;
+    background-color: rgb(255, 0, 0);
     color: aliceblue;
     text-align: center;
     padding-top: 10px;
