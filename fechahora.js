@@ -5,5 +5,5 @@ getFullYear()
 getHours()	
 getMinutes()*/
 
-var d = new Date();
-document.getElementById("fechahora").innerHTML = d;
+var dia = new Date();
+document.getElementById("fechahora").innerHTML = dia;
