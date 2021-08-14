@@ -122,3 +122,7 @@ body{
     flex-direction: column;
 }
 
+footer h2,p{
+    color: rgb(97, 95, 95)
+}
+
