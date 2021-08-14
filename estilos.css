@@ -118,9 +118,10 @@ body{
     background-position: center center;
     background-size: cover;
 }
-.formulario {
+.form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
 }
 
 footer h2,p{
