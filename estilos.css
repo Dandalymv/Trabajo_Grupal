@@ -107,8 +107,10 @@ footer{
     padding-bottom: 20px;
     padding-right: 5px;
     width: 100%;
-    float: left;
+    
     box-sizing: border-box;
+    bottom: 0;
+    
 }
 
 body{
@@ -128,3 +130,6 @@ footer h2,p{
     color: rgb(97, 95, 95)
 }
 
+.container {
+    width: 80%;
+}
