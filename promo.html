@@ -6,10 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Promociones</title>
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.css" />
   <link rel="stylesheet" href="estilos.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.js"></script>
 </head>
 
 <body>
@@ -67,41 +71,35 @@
     
     <table id="example" class="display" style="width:100%">
       <thead>
-        <tr>
-          <th>Local</th>
-          <th>Región</th>
-          <th>Dirección</th>
-          <th>Teléfono</th>
-        </tr>
+          <tr>
+              <th>Name</th>
+              <th>Position</th>
+              <th>Office</th>
+              <th>Age</th>
+              <th>Start date</th>
+              <th>Salary</th>
+          </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Santiago Centro</td>
-          <td>Región Metropolitana</td>
-          <td>Alameda 8889</td>
-          <td>+562 8888 6211</td>
-        </tr>
-        <tr>
-          <td>La Serena</td>
-          <td>IV Región</td>
-          <td>Francisco Encina 1234</td>
-          <td>+569 7845 8525</td>
-        </tr>
-        <tr>
-          <td>Concepción</td>
-          <td>VIII Región</td>
-          <td>San Francisco 7854</td>
-          <td>+569 8742 7888</td>
-        </tr>
-        <tr>
-          <td>Coyahique</td>
-          <td>XI Región</td>
-          <td>San Benito 132</td>
-          <td>+569 7841 8785</td>
-        </tr>
+          <tr>
+              <td>Tiger Nixon</td>
+              <td>System Architect</td>
+              <td>Edinburgh</td>
+              <td>61</td>
+              <td>2011/04/25</td>
+              <td>$320,800</td>
+          </tr>
+          <tr>
+              <td>Garrett Winters</td>
+              <td>Accountant</td>
+              <td>Tokyo</td>
+              <td>63</td>
+              <td>2011/07/25</td>
+              <td>$170,750</td>
+          </tr>
       </tbody>
-      <table>
-  </div>
+
+
 
   <footer>
     <p>Sprint 01 Grupo 3 - Awakelab</p>
@@ -110,19 +108,13 @@
   </footer>
 
 
-  <script>$(document).ready(function () {
-      $('#myTable').DataTable();
-    });</script>
+  <script>$(document).ready(function() {
+    $('#example').DataTable( {
+        "order": [[ 3, "desc" ]]
+    } );
+} );</script>
 
-  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.25/datatables.min.js"></script>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-    crossorigin="anonymous"></script>
-  <script src="./javaescript/js.js"></script>
 </body>
 
 </html>
